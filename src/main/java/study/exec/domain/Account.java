@@ -38,6 +38,9 @@ public class Account {
                 .password(password)
                 .build();
 
+        // 대충 작업 끝난 상황
+        Bank build = Bank.builder().build();
+
         return 0l;
     }
 }
