@@ -1,0 +1,21 @@
+spring :
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/exec
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  output.ansi.enabled : always
+
+# for error-page
+server.error :
+  include-exception : false
+  include-message : never
+  include-stacktrace : never
+  include-binding-errors: never

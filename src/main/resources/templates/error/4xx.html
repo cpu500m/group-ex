@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<div class="container" style="max-width : 600px">
+    <div class="py-5 text-center">
+        <h2>잘못된 경로입니다.</h2>
+    </div>
+
+    <div>
+        <p>오류 화면</p>
+    </div>
+
+    <ul>
+        <li>오류 정보</li>
+        <ul>
+            <li th:text="|status : ${status}"></li>
+        </ul>
+    </ul>
+
+    <hr class="my-4">
+</div>
+</body>
