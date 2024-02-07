@@ -40,4 +40,6 @@ public class Account {
 
         return 0l;
     }
+
+    // 대충 출금 로직 작성 완료
 }
