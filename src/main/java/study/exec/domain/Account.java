@@ -32,7 +32,9 @@ public class Account {
     }
 
     public static Long createAccount(Member member, String password) {
-        // 은행은?..mm
+        // 은행은?..
+        // 대충 의미없는 코드 추가해보기
+        Bank test = Bank.builder().build();
         Account account = Account.builder()
                 .member(member)
                 .password(password)
