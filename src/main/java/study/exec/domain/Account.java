@@ -44,7 +44,5 @@ public class Account {
         return 0l;
     }
 
-    // 충돌 나는 상황 가정
-
-    // 테스트
+    // develop branch
 }
