@@ -44,7 +44,7 @@ public class Account {
         return 0l;
     }
 
-    // 대충 출금 로직 작성 완료
+    // 충돌 나는 상황 가정
 
     // 테스트
 }
